@@ -54,6 +54,11 @@ public class CafeWall {
          g.fillRect(x + SIZE,y,SIZE,SIZE);
          x = x + 2*SIZE;
       }
+      
+      public static void tom(Graphics g, int x, int y, int PAIRS, int SIZE, int i) {
+         g.setColor(Color.RED)
+         g.fillRect(x + 20,y + 5, 106, 23)
+      }
    
    
    }
