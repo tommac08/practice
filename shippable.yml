@@ -7,6 +7,6 @@
    - openjdk6
    - oraclejdk8
    
-   script:
+ script:
    - mvn clean cobertura:cobertura
    - mvn test
