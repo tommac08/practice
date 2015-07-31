@@ -8,7 +8,7 @@ public class CafeWall {
       
       panel.setBackground(Color.GRAY);
       
-      row(g,0,0,4,20);
+      row(g,0,0,4,25);
       row(g,50,70,5,30);
       grid(g,10,150,4,25,0);
       grid(g,250,200,3,25,10);
